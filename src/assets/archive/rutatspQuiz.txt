@@ -1,0 +1,3 @@
+# 1272 - es correcta
+
+# [1,16,11,3,7,6] - es correcta
