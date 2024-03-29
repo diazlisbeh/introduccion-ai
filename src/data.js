@@ -8,7 +8,8 @@ export const cursos = [
         {
           numero: 1,
           tareas: [
-            { id: 1, nombre: "El pensamiento de la Inteligencia artificial", link: 'https://diazsa.blob.core.windows.net/coursera/El pensamiento de la Inteligencia artificial _ Coursera.pdf' },
+            // https://diazsa.blob.core.windows.net/coursera/El pensamiento de la Inteligencia artificial _ Coursera.pdf
+            { id: 1, nombre: "El pensamiento de la Inteligencia artificial", link: './assets/archive/https://diazsa.blob.core.windows.net/coursera/El pensamiento de la Inteligencia artificial _ Coursera.pdf' },
            
           ],
         },
@@ -74,5 +75,46 @@ export const cursos = [
         },
       ],
     },
+    {
+        id: 3,
+        nombre: "Resolución de problemas por búsqueda",
+        semanas: [
+          {
+            numero: 1,
+            tareas: [
+              { id: 13, nombre: "Algoritmos de búsqueda ciega", link:'https://diazsa.blob.core.windows.net/coursera/Algoritmos de búsqueda ciega _ Coursera.pdf' },
+             
+            ],
+          },
+          {
+            numero: 2,
+            tareas: [
+              { id: 14, nombre: "Algoritmos de Búsqueda ciega (parte 2)", link:'https://diazsa.blob.core.windows.net/coursera/busqueda_ciega.txt' },
+            ],
+          },
+          {
+              numero: 3,
+              tareas: [
+                { id: 15, nombre: "Algoritmos de búsqueda informada", link:'https://diazsa.blob.core.windows.net/coursera/busqueda_informada.txt' },
+                
+              ],
+          },
+          {
+              numero: 4,
+              tareas: [
+                  { id: 16, nombre: "Algoritmo IDA*", link:'https://diazsa.blob.core.windows.net/coursera/Algoritmo_ida.txt' },
+              ],
+          },
+          {
+              numero: 5,
+              tareas: [
+                  { id: 9, nombre: "Algoritmos metaheurísticos", link:'https://diazsa.blob.core.windows.net/coursera/Algoritmos metaheurísticos _ Coursera.pdf' },
+                  { id: 17, nombre: "Evaluación final: Solución del cubo de Rubik", link:'https://coursera-assessments.s3.amazonaws.com/assessments/1708390364280/479a38b4-52cd-4af4-a762-cadc78578db2/Tarea%20Final%20-%20relucion%20problemas%20busqueda%20-%20Final.pdf' },
+              ],
+          },
+          
+         
+        ],
+      },
   ];
   
