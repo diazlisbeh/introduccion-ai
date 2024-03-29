@@ -153,5 +153,71 @@ export const cursos = [
          
         ],
       },
+      {
+        id: 5,
+        nombre: "Computo Adaptativo",
+        semanas: [
+          {
+            numero: 1,
+            tareas: [
+              { id: 18, nombre: "Cuestionario Módulo 1", link:'https://diazsa.blob.core.windows.net/coursera/Cuestionario%20Módulo%201%20_%20Coursera.pdf' },
+             
+            ],
+          },
+          {
+            numero: 2,
+            tareas: [
+              { id: 19, nombre: "Cuestionario Módulo 2", link:'https://diazsa.blob.core.windows.net/coursera/Cuestionario%20Módulo%202%20_%20Coursera.pdf' },
+            ],
+          },
+          {
+              numero: 3,
+              tareas: [
+                { id: 20, nombre: "Cuestionario. Módulo 3", link:'https://diazsa.blob.core.windows.net/coursera/Cuestionario.%20Módulo%203%20_%20Coursera.pdf' },
+                
+              ],
+          },
+          {
+              numero: 4,
+              tareas: [
+                  { id: 21, nombre: "Vehículos de Braitenberg (Fotofobia)", link:'https://diazsa.blob.core.windows.net/coursera/fotofobia.txt' },
+                  { id: 22, nombre: "Vehículos de Braitenberg (Fototaxis)", link:'https://diazsa.blob.core.windows.net/coursera/fototaxiz.txt' },
+              ],
+          },   
+        ],
+      },
+      {
+        id: 6,
+        nombre: "Creatividad computacional",
+        semanas: [
+          {
+            numero: 1,
+            tareas: [
+              { id: 23, nombre: "Un sistema computacional creativo que me gustaría que existiera", link:'https://coursera-assessments.s3.amazonaws.com/assessments/1710178918290/17759623-2ed7-4f21-8039-79a1c7ab42e9/creatividad%20computacional.pdf' },
+             
+            ],
+          },
+          {
+            numero: 2,
+            tareas: [
+              { id: 24, nombre: "Nociones básicas de la Creatividad Computacional", link:'https://diazsa.blob.core.windows.net/coursera/Nociones%20básicas%20de%20la%20Creatividad%20Computacional%20_%20Coursera.pdf' },
+            ],
+          },
+          {
+              numero: 3,
+              tareas: [
+                { id: 25, nombre: "Programming Assignment: Actividad 3.5 (1)", link:'https://diazsa.blob.core.windows.net/coursera/creatividad_programing.txt' },
+                { id: 26, nombre: "Actividad 3.5 (2)", link:'https://diazsa.blob.core.windows.net/coursera/Actividad%203.5%20(2)%20_%20Coursera.pdf' },
+                
+              ],
+          },
+          {
+              numero: 4,
+              tareas: [
+                  { id: 27, nombre: "Analizando cómo percibe un grupo social las pinturas creadas por nuestro pintor artificial", link:'https://coursera-assessments.s3.amazonaws.com/assessments/1710529852721/5ed76cf7-4a26-4080-917a-8715852b5e7a/Analizando_Modulo4..pdf' },
+                 ],
+          },   
+        ],
+      },
   ];
   
